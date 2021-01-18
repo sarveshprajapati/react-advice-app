@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,300;1,400&display=swap');
+.advice-template{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    height: 60%;
+}
+.featured{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url('./img/bg.jpg');
+    border-radius: 10px;
+}
+.featured p{
+    height: auto;
+    width: auto;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Fraunces', serif;
+}
+button{
+    background: none;
+    border: none;
+    background: #333;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+
